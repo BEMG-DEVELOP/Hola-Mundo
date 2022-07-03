@@ -1,5 +1,9 @@
-body
+/* Selectores basicos
+    * * De tipo, de clase, de Id de atributo, universal
+*/
+body /* *?Esta es un selector de tipo */
 {
+    background-color: darkcyan;
     color: #333;
     text-align: left;
     font-family: "Courier";
@@ -7,30 +11,40 @@ body
     margin: 0;
     padding: 0;
 }
-#cabecera 
-{
-    background:#33A;
+header nav{ /* *? Esta es un selector combinado*/
+    background-color: seagreen;
     box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.75);
-    color: white;
+    color:#333;
     font-weight: bold;
     margin: 0;
     padding: 0.5em;
 }
-#cabecera .tagline
+nav > .title{/* *? ESta es una etiqueta con hijo directo  debe estar dentro de la primera etiqueta*/
+    color:black !important;
+    text-align: center;
+    
+}
+.menu /* *? Este es un selector de clase*/
 {
+    color:white;
+}
+h1 + p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#acerca
+{
+    background-color: azure;
     padding: 0 0 0 1em;
     font-weight: normal;
-    margin: 0.8em
-}
-#container
-{
-    width: 50%;
-    padding: 1em;
-    text-align: left;
-    border: 1px solid #DDD;
-}
-#container h1
-{
-    font-size: 20px;
+    margin: 0.8em;
+    border-radius: 13px;
 
+}
+footer > p{
+    background-color: seagreen;
+    box-shadow: 0px 5px 30px 0px rgba(0,0,0,0.75);
+    color:#333;
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
 }
