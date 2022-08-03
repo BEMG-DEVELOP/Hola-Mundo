@@ -3,4 +3,4 @@ Esta es la historia de Brian E. de
 Brian tiene 22 años y nacio en Mexico.
 
 despues nos enfocaremos en su vida laboral
-hice el cambio de https a ssh
+hice el cambio de https a ssh, tengo la duda que si es bueno ocupar siempre sudo para los commit
